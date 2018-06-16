@@ -51,7 +51,7 @@ fun all_products(factors:(int*int)list)=
 	    then false
 	    else if hd li=item
 	    then true
-	    else dup(item,tl li)
+	    else false
 		    
 	fun remove_duplicate(li:int list)=
 	    if null li
